@@ -1,7 +1,6 @@
 from django.urls import path
-from .views import upload_resume, suggestions
+from .views import match_skills
 
 urlpatterns = [
-    path('upload/', upload_resume, name='upload_resume'),
-    path('suggestions/', suggestions, name='suggestions'),
+    path('match_skills/', match_skills, name='match_skills'),
 ]
